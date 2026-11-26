@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Write access to capsules/site_settings is enforced by RLS via public.is_editor() (JWT email match); the UI check in useEditor is only cosmetic. Why: only one shared educators account may edit.
+- Public sign-up is disabled in auth settings; the educators account is created from Users → Add user. Why: nobody else may get an account.
