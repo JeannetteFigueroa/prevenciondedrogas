@@ -20,6 +20,7 @@ export type Database = {
           created_at: string
           description: string
           id: string
+          published: boolean
           summary: string
           title: string
           video_url: string | null
@@ -29,6 +30,7 @@ export type Database = {
           created_at?: string
           description?: string
           id?: string
+          published?: boolean
           summary?: string
           title: string
           video_url?: string | null
@@ -38,6 +40,7 @@ export type Database = {
           created_at?: string
           description?: string
           id?: string
+          published?: boolean
           summary?: string
           title?: string
           video_url?: string | null
