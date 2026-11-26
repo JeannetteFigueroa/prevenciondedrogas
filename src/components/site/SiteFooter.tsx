@@ -18,7 +18,7 @@ export function SiteFooter() {
         </div>
         <div>
           <h3 className="mb-3 flex items-center gap-2 font-display text-lg"><BookOpen className="size-5 text-sun" /> Contenido e Investigación Preventiva</h3>
-          <p className="text-sm opacity-90">Equipo de Estudiantes de Educación Parvularia:</p>
+          <p className="text-sm opacity-90">Equipo de Estudiantes Educadoras de UAH:</p>
           <p className="mt-1 text-sm font-semibold">{team || "…"}</p>
         </div>
         <div className="rounded-xl bg-primary-foreground/10 p-5">
